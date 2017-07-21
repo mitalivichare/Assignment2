@@ -9,7 +9,7 @@ public class DataMunger
 		Scanner scanner=new Scanner(System.in);
 		System.out.println("Enter table name: ");
 		String fileName=scanner.nextLine();
-		DataReader dataReader=new DataReader(fileName);
+		Header dataReader=new Header(fileName);
 		String[] fileHeaders=dataReader.getHeaders();
 		System.out.println();
 		for(String column : fileHeaders)

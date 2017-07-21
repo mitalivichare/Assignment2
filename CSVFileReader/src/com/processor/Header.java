@@ -4,14 +4,14 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class DataReader 
+public class Header 
 {
 	private String fileName;
 	private BufferedReader bufferedReader;
 	String[]  fileheaders;
 	private String line;
 	
-	public DataReader(String fileName)
+	public Header(String fileName)
 	{
 		this.fileName=fileName;
 	}
