@@ -1,4 +1,4 @@
-package com.processor.test;
+package com.stackroute.datamunger.commander;
 
 import static org.junit.Assert.assertNotNull;
 
@@ -12,8 +12,8 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.processor.CSVDataReader;
-import com.processor.DataReader;
+import com.stackroute.datamunger.CSVDataReader;
+import com.stackroute.datamunger.DataReader;
 
 public class CSVDataReaderTest 
 {
